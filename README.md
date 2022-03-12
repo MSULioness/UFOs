@@ -20,20 +20,12 @@ See below steps on how to use the website:
   2. Then click the "Filter Table" button
   3. Click the "Clear Filter" button to clear the filters and get the placeholder data
 
-![This is an image](https://github.com/MSULioness/surfs_up/blob/main/June%20Temps.jpg)
-
-See December results
-
-![This is an image](https://github.com/MSULioness/surfs_up/blob/main/December%20Temps.jpg)
-
-There are three key differences in weather between June and December:
-
-    1. In June (64 degrees) the min temp is 10 degrees higher than December (56 degrees)
-    
-    2. A quarter of the time June temp is 73 degrees while December is 69 degrees.
-    
-    3. The total count of weather days in June is 1700 while 1517 in December.  That's a difference of 183 days!
+![This is an image](static/images/D9A2466B-DC34-4C45-A9EA-6344CA23324A_4_5005_c.jpeg)
 
 
 # SUMMARY 
-In summary, based on the data a viable surf and ice cream shop business will be sustainable all year round.  In Oahu, Hawaii most of the time the temperature is greater than 70 degrees which is a great weather to enjoy ice cream and the ocean waves.  Surfs Up!!!
+In summary, one drawback of the webpage is the clear filters button does not clear the placeholder text content.
+
+# Recommendations for further development
+  1. Remove placeholder text from fields
+  2. Remove placeholder data from showing

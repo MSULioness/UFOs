@@ -5,37 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UFO Finder</title>
-</head>
-<body>
-    
-</body>
-</html>
-
-<!COMMENT: Link tag>
-<link
+    <!COMMENT: Link tag>
+    <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-
 <!Link style css file>
 <link rel="stylesheet" href="static/css/style.css">
 
-<body>
+</head>
+
+<body class="bg-dark">
     <div class="wrapper">
         <!Build the Navbar>
         <nav class="navbar navbar-expand-lg">
             <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="index.html">UFO Sightings</a>
               </nav>
-        </nav>
+        </nav class="navbar navbar-dark bg-dark navbar-expand-lg">
     </div>
 </body>
 
 <!Add Jumbotron>
 <div class="jumbotron">
-    <h1>The Truth Is Out There</h1>
+    <h1 class="display-4">The Truth Is Out There</h1>
   </div>
 
 <!DIV = SPAN THE WIDTH OF THE VIEWPOINT>
@@ -57,18 +52,20 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-3">
-        <form>
+        <form class="bg-dark">
             <p>Filter Search</p>
-          </form>
-          <ul class="list-group">
-            <li class="list-group-item">
+            <ul class="bg-dark">
+              <li class="bg-dark">
                 <label for="date">Enter Date</label>
-                <input type="text" placeholder="1/10/2010" id="datetime" />   
-            </li>
-            <li class="list-group-item">
-                <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>               
-            </li>
-        </ul>
+                <input type="text" placeholder="1/10/2010" id="datetime" />
+              </li class="bg-dark">
+              <li class="bg-dark">
+                 <button id="filter-btn" type="button" class="btn btn-dark">
+                   Filter Table
+                 </button>
+              </li class="bg-dark">
+            </ul>
+           </form>
       </div>
       <div class="col-md-9">
         <table class="table table-striped">
@@ -83,3 +80,9 @@
       </div>
     </div>
   </div> 
+  <!ADD DATA & FILES>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+  <script src="static/js/data.js"></script>
+  <script src="static/js/app.js"></script>
+</body>
+</html>
